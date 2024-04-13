@@ -188,6 +188,12 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 0.5s ease;
+}
+
+.about a:hover {
+    background-color: #000000;
+    color: #fff;
 }
 
 .pics {
@@ -385,6 +391,13 @@ footer p {
     text-transform: uppercase;
     margin-left: 160px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: white;
+    color: balck;
+    color: rgb(0, 0, 0);
 }
 
 .contact-form label {
@@ -397,6 +410,8 @@ footer p {
     text-align: right;
     width: 120px;
 }
+
+/* about me */
 
 .aboutme-text h1 {
     color: rgb(255, 255, 255);
@@ -489,6 +504,8 @@ footer p {
     margin-top: 73px;
 }
 
+/* projects */
+
 .projects {
     background: black;
 }
@@ -520,6 +537,8 @@ footer p {
 .projects-list li {
     width: 100%;
 }
+
+/* tablet screen */
 
 @media(max-width:1229px) {
     .container {
@@ -561,6 +580,8 @@ footer p {
         margin-left: 35px;
         margin-right: 35px;
     }
+
+    /* HOME PAGE */
 
     .hero {
         padding-top: 131px;
@@ -652,6 +673,8 @@ footer p {
         background-size: cover;
     }
 
+    /* FOOTER TABLET */
+
     footer {
         background-color: black;
         padding: 26px 42px;
@@ -676,7 +699,7 @@ footer p {
         line-height: 14px;
     }
 
-    /* contact me */
+    /* CONTACT ME TABLET */
 
     .photo {
         width: 50%;
@@ -805,9 +828,11 @@ footer p {
 
 }
 
+/* MOBILE SCREEN */
+
 @media(max-width:767px) {
 
-
+/* HOME MOBILE  */
 
     .container {
         max-width: 390px;
@@ -1051,6 +1076,8 @@ footer p {
         height: 22px;
     }
 
+    /* FOOTER MOBILE  */
+
     footer {
         padding: 20px;
     }
@@ -1074,7 +1101,7 @@ footer p {
         line-height: 14px;
     }
 
-    /* contact me */
+    /* contact me mobile */
 
     .photo {
         width: 100%;
@@ -1140,7 +1167,7 @@ footer p {
         font-size: 10px;
     }
 
-    /* projects */
+    /* projects mobile */
 
     .projects-h1 {
         font-size: 20px;
@@ -1154,7 +1181,7 @@ footer p {
         grid-template-columns: 1fr;
     }
 
-    /* about*/
+    /* about mobile*/
 
     .aboutme-text h1 {
         font-size: 20px;
